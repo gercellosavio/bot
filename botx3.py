@@ -43,7 +43,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 CHOOSING, TYPING_REPLY, TYPING_CHOICE,MENU_CABALLO,REALIZAR_APUESTA,MENU_PRINCIPAL,DEPOSITO,RETIRO,MONTO_APUESTA= range(9)
-
+ 
 
 def facts_to_str(user_data: Dict[str, str]) -> str:
     """Helper function for formatting the gathered user info."""
