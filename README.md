@@ -1,2 +1,0 @@
-# bot
-boot de telegram
